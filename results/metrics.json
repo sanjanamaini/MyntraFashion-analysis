@@ -1,0 +1,96 @@
+{
+ "rows": 526564,
+ "unique_products": 526564,
+ "v1_products": 117565,
+ "v1_cluster_sizes": {
+  "0": 60304,
+  "1": 5842,
+  "2": 33100,
+  "3": 18319
+ },
+ "v1_risky": {
+  "products": 18319,
+  "rating": 3.26,
+  "discount": 55.56,
+  "reviews": 20.4
+ },
+ "rated": 190412,
+ "rated_share": 0.3616122636564596,
+ "rated_full_price": 72847,
+ "full_price_mean_rating": 4.1262742460224855,
+ "on_sale_mean_rating": 4.075446774124952,
+ "silhouette": {
+  "2": 0.2586258082203814,
+  "3": 0.29791721054743037,
+  "4": 0.2853271624141297,
+  "5": 0.2945892535589447,
+  "6": 0.2702200464650257,
+  "7": 0.22948419935843645,
+  "8": 0.24098486638524697
+ },
+ "stability": {
+  "2": 0.9898280364924688,
+  "3": 0.7964533128370771,
+  "4": 0.9856029942778312,
+  "5": 0.9795674279812909,
+  "6": 0.825868901964243,
+  "7": 0.8596013270672105,
+  "8": 0.9448154367843852
+ },
+ "tree_accuracy_risky": 0.9637732318292008,
+ "risky_rating_cut": 3.75,
+ "eb_mu": 4.094892128647354,
+ "eb_tau": 0.3356679764367844,
+ "eb_sigma": 1.086232888563331,
+ "eb_fit_r2": 0.8907698925183313,
+ "reviews_for_half_weight": 10.47191420014484,
+ "risky_reliably_low": 531,
+ "risky_reliably_low_share": 0.028986298378732463,
+ "risky_median_reviews": 9.0,
+ "risky_le10_reviews_share": 0.5451170915442982,
+ "catalogue_reliably_low": 911,
+ "catalogue_reliably_low_not_risky": 50,
+ "risky_mean_theta": 3.7177757973633168,
+ "within_effect_per10": -0.007837484584170568,
+ "within_ci": [
+  -0.01069175363131331,
+  -0.004983215537027826
+ ],
+ "pooled_effect_per10": -0.010566633218976867,
+ "pooled_ci": [
+  -0.014155782448230748,
+  -0.0069774839897229855
+ ],
+ "within_products": 183476,
+ "within_groups": 4029,
+ "by_discount_band": {
+  "full price": {
+   "products": 69423,
+   "shrunk_rating": 4.1352,
+   "reliably_low_share": 0.0045
+  },
+  "1-30%": {
+   "products": 12045,
+   "shrunk_rating": 4.1551,
+   "reliably_low_share": 0.0021
+  },
+  "30-50%": {
+   "products": 29702,
+   "shrunk_rating": 4.1349,
+   "reliably_low_share": 0.0025
+  },
+  "50-70%": {
+   "products": 57498,
+   "shrunk_rating": 4.0823,
+   "reliably_low_share": 0.0056
+  },
+  "over 70%": {
+   "products": 14808,
+   "shrunk_rating": 4.0435,
+   "reliably_low_share": 0.0099
+  }
+ },
+ "brands_with_fifth_or_more_reliably_low": 0,
+ "brands_20plus": 797,
+ "reliably_low_in_top15_brands_share": 0.18880351262349068
+}
