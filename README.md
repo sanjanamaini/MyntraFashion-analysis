@@ -2,6 +2,15 @@
 
 **Version 1 clustered 117,565 Myntra listings and found a "Risky" segment of 18,319 products rated 3.26 stars despite ~56% discounts, read as discounting masking a quality problem. Version 2 tests that story and finds it does not hold: the segment is a ratings cut-off resting on thin evidence, and discount depth says almost nothing about quality.**
 
+**At a glance**
+
+| | |
+|---|---|
+| **Question** | Is heavy discounting hiding bad products in a fashion catalogue? |
+| **Data** | 526,564 Myntra listings |
+| **Result** | The "Risky" segment is a rating cut-off: a rule on rating alone (3.65 stars or below) matches it for 96% of products, and only 531 of 18,319 "Risky" products are reliably below 3.5 stars |
+| **Stack** | Python, scikit-learn, statsmodels, empirical Bayes |
+
 Data: a scrape of 526,564 Myntra listings (brand, category, gender, original and discounted price, average rating, review count), published on Kaggle. `scripts/get_data.py` fetches a public copy; v1's clusters reproduce exactly from it.
 
 **Notebook:** [`notebooks/catalogue_quality.ipynb`](notebooks/catalogue_quality.ipynb), step by step, every number printed by a cell.
